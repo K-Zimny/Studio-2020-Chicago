@@ -869,3 +869,15 @@ footer {
     background-position: 0% 50%;
   }
 }
+
+// homepage media queries
+
+@media only screen and (max-width: 767px) {
+  .homepage-btn {
+    font-size: 18px;
+  }
+
+  .homepage-social svg {
+    width: 24px;
+  }
+}
